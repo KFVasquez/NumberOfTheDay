@@ -1,0 +1,30 @@
+#App{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+h1 {
+    text-align: center;
+}
+.gameDiv{
+    display: flex;
+    justify-content: center;
+}
+.greenText{
+    color: rgb(94, 255, 94);
+}
+.yellowText{
+    color: rgb(255, 255, 0);
+}
+.redText{
+    color: rgb(255, 0, 0);
+}
+.counterVisual{
+    text-align: center;
+    font-size: xx-large;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}

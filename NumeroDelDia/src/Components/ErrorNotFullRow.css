@@ -1,0 +1,18 @@
+.error {
+    font-size: x-large;
+    background-color: #ffcccc;
+    color: #cc0000;
+    padding: 10px;
+    border: 2px solid #cc0000;
+    border-radius: 100px;
+    position: fixed;
+    top: center;
+    left: center;
+    z-index: 999;
+    opacity: 0;
+    transition: opacity 0.3s ease
+}
+
+.show {
+    opacity: 1;
+}

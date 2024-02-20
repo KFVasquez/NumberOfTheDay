@@ -1,0 +1,66 @@
+#settingsDiv a{
+    color: inherit;
+    text-decoration: initial;
+}
+
+#menuSvg,
+#settingsSvg {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    position: fixed;
+    top: 0;
+}
+
+#menuSvg {
+    right: 0;
+}
+
+#settingsSvg{
+    left: 0;
+}
+
+#menuSvg:hover,
+#settingsSvg:hover {
+    color: rgb(255, 0, 0);
+}
+
+#gameModesDiv, #settingsModesDiv {
+    height: 100%;
+    padding: 0 15px;
+    background-color: rgb(255, 166, 0);
+    color: rgb(0, 51, 255);
+    position: fixed;
+    top: 60px;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+#gameModesDiv {
+    right: 0px;
+    transform: translateX(100%);
+}
+
+#settingsModesDiv {
+    left: 0px;
+    transform: translateX(-100%);
+}
+
+#light\/dark{
+    cursor: pointer;
+}
+
+/* #gameModesDiv.visible {
+    opacity: 1;
+    transform: translate(0);
+}
+
+#settingsModesDiv.visible {
+    opacity: 1;
+    transform: translate(0);
+} */
+
+.visible{
+    opacity: 1 !important;
+    transform: translate(0) !important;
+}
